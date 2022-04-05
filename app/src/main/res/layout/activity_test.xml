@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bkg_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.test.activity.TestActivity">
+
+    <Button
+        android:id="@+id/btn_colorPicker_test_primary"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_margin="@dimen/default_application_margin"
+        android:background="@color/colorPrimary"
+        android:text="colorPickerPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/default_text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_colorPicker_test_primary_dark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_colorPicker_test_primary_dark"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_margin="@dimen/default_application_margin"
+        android:background="@color/colorPrimaryDark"
+        android:text="colorPickerPrimaryDark"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/default_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_colorPicker_test_accent"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_margin="@dimen/default_application_margin"
+        android:background="@color/colorAccent"
+        android:text="colorPickerAccent"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/default_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_colorPicker_test_primary_dark"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

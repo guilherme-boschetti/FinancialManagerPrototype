@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bguilherme.financialmanager">
+
+    <application
+        android:name=".FinancialManagerApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.test.activity.TestActivity" />
+        <activity android:name=".view.settings.activity.ThemesActivity" />
+        <activity android:name=".view.about.activity.AboutActivity" />
+        <activity android:name=".view.settings.activity.SettingsActivity" />
+        <activity android:name=".view.bill.activity.BillsActivity" />
+        <activity android:name=".view.login.actitity.LoginActivity" />
+        <activity android:name=".view.splash.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

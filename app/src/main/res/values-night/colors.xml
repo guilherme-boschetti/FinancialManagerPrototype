@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- == == == == == Themes == == == == == -->
+    <!-- Night -->
+    <color name="colorPrimary">#1E1E1E</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#808080</color>
+    <!-- == == == == == == == == == == -->
+</resources>

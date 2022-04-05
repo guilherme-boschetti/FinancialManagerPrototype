@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bkg_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground"
+    android:fillViewport="true"
+    tools:context=".view.settings.activity.SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="ScrollViewSize">
+
+        <TextView
+            android:id="@+id/txt_warning_themes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_application_margin"
+            android:layout_marginTop="@dimen/default_application_margin"
+            android:layout_marginRight="@dimen/default_application_margin"
+            android:gravity="center"
+            android:text="@string/warning_themes"
+            android:textColor="#FF0000"
+            android:textSize="@dimen/default_text_size"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_themes"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_margin="@dimen/default_application_margin"
+            android:background="@drawable/bkg_button"
+            android:text="Temas"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_text_size" />
+
+    </LinearLayout>
+
+</ScrollView>

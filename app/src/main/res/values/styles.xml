@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>-->
+        <item name="colorPrimary">?themePrimary</item>
+        <item name="colorPrimaryDark">?themePrimaryDark</item>
+        <item name="colorAccent">?themeAccent</item>
+    </style>
+
+    <!-- == == == == == Themes == == == == == -->
+    <!-- Night -->
+    <style name="AppTheme.Night"> <!-- values-night/colors.xml -->
+        <item name="themePrimary">@color/colorPrimary</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+    </style>
+    <!-- Financial Manager -->
+    <style name="AppTheme.FinancialManager"> <!-- values/colors.xml -->
+        <item name="themePrimary">@color/colorPrimary</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDark</item>
+        <item name="themeAccent">@color/colorAccent</item>
+    </style>
+    <!-- Red -->
+    <style name="AppTheme.Red">
+        <item name="themePrimary">@color/colorPrimaryRed</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDarkRed</item>
+        <item name="themeAccent">@color/colorAccentRed</item>
+    </style>
+    <!-- Green -->
+    <style name="AppTheme.Green">
+        <item name="themePrimary">@color/colorPrimaryGreen</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="themeAccent">@color/colorAccentGreen</item>
+    </style>
+    <!-- Blue -->
+    <style name="AppTheme.Blue">
+        <item name="themePrimary">@color/colorPrimaryBlue</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDarkBlue</item>
+        <item name="themeAccent">@color/colorAccentBlue</item>
+    </style>
+    <!-- Yellow -->
+    <style name="AppTheme.Yellow">
+        <item name="themePrimary">@color/colorPrimaryYellow</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDarkYellow</item>
+        <item name="themeAccent">@color/colorAccentYellow</item>
+    </style>
+    <!-- Orange -->
+    <style name="AppTheme.Orange">
+        <item name="themePrimary">@color/colorPrimaryOrange</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDarkOrange</item>
+        <item name="themeAccent">@color/colorAccentOrange</item>
+    </style>
+    <!-- Pink -->
+    <style name="AppTheme.Pink">
+        <item name="themePrimary">@color/colorPrimaryPink</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDarkPink</item>
+        <item name="themeAccent">@color/colorAccentPink</item>
+    </style>
+    <!-- Purple -->
+    <style name="AppTheme.Purple">
+        <item name="themePrimary">@color/colorPrimaryPurple</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDarkPurple</item>
+        <item name="themeAccent">@color/colorAccentPurple</item>
+    </style>
+    <!-- Gray -->
+    <style name="AppTheme.Gray">
+        <item name="themePrimary">@color/colorPrimaryGray</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDarkGray</item>
+        <item name="themeAccent">@color/colorAccentGray</item>
+    </style>
+    <!-- Black -->
+    <style name="AppTheme.Black">
+        <item name="themePrimary">@color/colorPrimaryBlack</item>
+        <item name="themePrimaryDark">@color/colorPrimaryDarkBlack</item>
+        <item name="themeAccent">@color/colorAccentBlack</item>
+    </style>
+    <!-- == == == == == == == == == == -->
+
+</resources>

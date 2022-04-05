@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gerenciador Financeiro</string>
+    <!-- Splash -->
+    <string name="app_logo">App Logo</string>
+    <string name="developed_by">Desenvolvido por:</string>
+    <string name="g_b">G. B.</string>
+    <!-- Login -->
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="sign_in">Entrar</string>
+    <string name="or">OU</string>
+    <string name="register">Cadastrar</string>
+    <string name="invalid_email">Email inválido</string>
+    <string name="invalid_password">Senha precisa ter ao menos 1 dígito</string>
+    <string name="login_failed">Falha ao efetuar login. Verifique email e senha e tente novamente.</string>
+    <string name="welcome">Bem-vindo</string>
+    <string name="email_already_registered">Email já cadastrado</string>
+    <!-- Bills -->
+    <string name="undo_snack_bar_text">Despesa deletada</string>
+    <string name="undo_snack_bar_button_text">DESFAZER</string>
+    <!-- -->
+    <string name="settings">Configurações</string>
+    <string name="about">Sobre</string>
+    <string name="test">Teste</string>
+    <!-- -->
+    <string name="about_text">Este aplicativo foi desenvolvido com o intuito de estudar a linguagem de programação kotlin para android.\nUtilizando as tecnologias mais recentes, como RecyclerView para listagem, Room e Coroutines para acesso ao banco de dados local, e padrão de projeto MVVM.\n\nEste aplicativo serve para gerenciar despesas, anotando cada despesa, assim mantendo um controle dos gastos.</string>
+    <!-- -->
+    <string name="themes">Temas</string>
+    <string name="warning_themes">Desculpe, A troca de tema não está disponível para sua versão de android. A versão mínima para troca de tema é a 5.0 (Nível da API 21).</string>
+    <string name="night_mode">Modo Noturno</string>
+    <string name="red">Vermelho</string>
+    <string name="green">Verde</string>
+    <string name="blue">Azul</string>
+    <string name="yellow">Amarelo</string>
+    <string name="orange">Laranja</string>
+    <string name="pink">Rosa</string>
+    <string name="purple">Roxo</string>
+    <string name="gray">Cinza</string>
+    <string name="black">Preto</string>
+    <!-- -->
+</resources>

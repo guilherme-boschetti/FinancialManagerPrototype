@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- == == == == == Themes == == == == == -->
+    <!-- FinancialManager -->
+    <color name="colorPrimary">#1BB831</color>
+    <color name="colorPrimaryDark">#009900</color>
+    <color name="colorAccent">#FFC90E</color>
+    <!-- Red -->
+    <color name="colorPrimaryRed">#FF0000</color>
+    <color name="colorPrimaryDarkRed">#C80B0B</color>
+    <color name="colorAccentRed">#FF8011</color>
+    <!-- Green -->
+    <color name="colorPrimaryGreen">#02CF02</color>
+    <color name="colorPrimaryDarkGreen">#0BC80B</color>
+    <color name="colorAccentGreen">#AAE422</color>
+    <!-- Blue -->
+    <color name="colorPrimaryBlue">#0000FF</color>
+    <color name="colorPrimaryDarkBlue">#0B0BC8</color>
+    <color name="colorAccentBlue">#25B2C5</color>
+    <!-- Yellow -->
+    <color name="colorPrimaryYellow">#F4F40E</color>
+    <color name="colorPrimaryDarkYellow">#DCDC0A</color>
+    <color name="colorAccentYellow">#FAC116</color>
+    <!-- Orange -->
+    <color name="colorPrimaryOrange">#FF8C00</color>
+    <color name="colorPrimaryDarkOrange">#FF4800</color>
+    <color name="colorAccentOrange">#DC960A</color>
+    <!-- Pink -->
+    <color name="colorPrimaryPink">#F61EBB</color>
+    <color name="colorPrimaryDarkPink">#E10BE8</color>
+    <color name="colorAccentPink">#FF0099</color>
+    <!-- Purple -->
+    <color name="colorPrimaryPurple">#9507A5</color>
+    <color name="colorPrimaryDarkPurple">#7807B5</color>
+    <color name="colorAccentPurple">#BD55FB</color>
+    <!-- Gray -->
+    <color name="colorPrimaryGray">#AAAAAA</color>
+    <color name="colorPrimaryDarkGray">#808080</color>
+    <color name="colorAccentGray">#BBBBBB</color>
+    <!-- Black -->
+    <color name="colorPrimaryBlack">#1E1E1E</color>
+    <color name="colorPrimaryDarkBlack">#000000</color>
+    <color name="colorAccentBlack">#808080</color>
+    <!-- == == == == == == == == == == -->
+
+    <color name="centerColorGradientSplash">#AABBBBBB</color>
+
+    <color name="colorPrimaryButtonDisabled">#AAAAAAAA</color>
+    <color name="colorAccentButtonDisabled">#AABBBBBB</color>
+
+    <color name="app_yellow">#FFF200</color>
+    <color name="app_yellow_dark">#FFC90E</color>
+    <color name="app_green">#1BB831</color>
+    <color name="app_green_dark">#009900</color>
+</resources>
